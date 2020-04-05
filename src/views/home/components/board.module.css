@@ -1,0 +1,46 @@
+.boardTile {
+  position: relative;
+  width: 300px;
+  height: 350px;
+}
+
+.firstboard{
+
+  position: absolute;
+  background-color: white;
+  color: black;
+  top: 20px;
+  left: 20px;
+  right: 20px;
+  bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  
+}
+
+.boardTileContent {
+  position: absolute;
+  background-color: #9fe7a4;
+  color: white;
+  top: 20px;
+  left: 20px;
+  right: 20px;
+  bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  
+}
+
+.boardTileContent:hover,
+.boardTileContent.boardTileContentLarge {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
